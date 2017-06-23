@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Machines</title>
+    <link rel='stylesheet' href='/stylesheets/style.css' />
+</head>
+
+<body>
+    <h1>Machines</h1>
+    <table>
+    <% for(var i=0; i < machines.length; i++) { %>
+        <tr>
+            <td><%= machines[i]._id %></td>
+            <td><%= machines[i].name %></td>
+        </tr>
+    <% } %>
+    </table>
+</body>
+
+</html>
