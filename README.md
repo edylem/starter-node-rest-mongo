@@ -12,5 +12,5 @@ npm install
 npm start
 
 # Use
-Go to http://localhost:3000/machines to see list of machines
+Go to http://localhost:3000/machines to see list of machines<br>
 POST a JSON like {"name":"machine 1"} on http://localhost:3000/api/machine to insert a new machine 
