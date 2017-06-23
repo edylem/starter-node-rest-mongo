@@ -5,7 +5,7 @@
  */
 
 var app = require('../app');
-var debug = require('debug')('konf:server');
+var debug = require('debug')('starter-node-rest-mongo:server');
 var http = require('http');
 
 /**
